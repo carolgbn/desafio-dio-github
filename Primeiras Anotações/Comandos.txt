@@ -1,0 +1,60 @@
+ls
+
+O comando ls irá listar as pastas do diretório que você se encontra atualmente.
+
+cd
+
+O comando cd irá fazer com que você navegue da pasta atual para uma determinada pasta.
+
+cd ..
+
+Com o cd .. você consegue voltar para uma pasta anterior
+
+git config --global user.name SeuNick
+
+Configura um nome de usuário
+
+git config --global user.email “seuemail@gmail.com”
+
+Configura um e-mail
+
+git init
+
+Cria um diretório
+
+git status
+
+Com o git status você pode estar visualizando os status atuais dos arquivos/diretórios.
+
+git add arquivo.txt
+
+Adiciona um arquivo ou diretório específico (staged area)
+
+git add .
+
+Adiciona todos os arquivos e diretórios (staged area)
+
+git commit arquivo.txt -m “Mensagem do commit”
+
+Com esse comando você ira comitar um arquivo ou diretório junto a uma mensagem.
+
+git rm -r meudiretorio
+
+Utilizando o comando git rm você pode estar removendo um arquivo, e passando o parâmetro -r removendo um diretório
+
+git remote add origin https://github.com/GabrielMMuniz/teste.git
+
+Para começar você deve usar o comando acima para poder estar associando o seu repositório local com o repositório remoto, no caso no GitHub
+
+git remote -v
+
+Com esse comando sera listado os repositórios remotos “cadastrados” em sua máquina local
+
+git push -u origin master ou main
+
+Digitando o comando acima está empurrando o diretório para o GitHub, é importante observar que o master estar sendo substituído pelo main.
+
+git clone https://github.com/GabrielMMuniz/teste.git
+
+Usando o git clone você pode estar clonando um diretório remoto em sua máquina local.
+
